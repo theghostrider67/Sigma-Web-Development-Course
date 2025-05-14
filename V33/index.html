@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 4 - Multi Color Website </title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        :root{
+            --Maincolor: rgb(30, 172, 203);
+            --textcolor: rgb(255, 255, 255);
+            --SecendaryCol: rgb(250, 67, 67);
+            --Rpad: 20px;
+            --Rmar: 10px;
+            --Rbor: 25px;
+            --bordercol: rgb(146, 15, 78);
+        }
+        body{
+            background-color: var(--SecendaryCol);
+        }
+        .nav{
+            background-color: var(--Maincolor);
+            padding: var(--Rpad);
+        }
+        ul{
+            display: flex;
+            border: var(--Rbor) solid var(--bordercol);
+        }
+        ul li{
+            padding: 23px;
+            list-style: none;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-weight: bold;
+            color: var(--textcolor); 
+        }
+
+        p{
+            color: var(--textcolor);
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-weight: bold;
+            padding: var(--Rpad);
+        }
+        ul li a{
+            text-decoration: none;
+            color: var(--textcolor);
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <div class="nav">
+            <ul>
+                <li><img width="100" src="https://www.thoughtco.com/thmb/QYFozetRCgYLFMPmCjhLsWmMzrA=/5200x3467/filters:fill(auto,1)/sunset-on-the-open-ocean-w-beautiful-sailboat-503108753-59a0806a396e5a0011d570d2.jpg" alt=""></li>
+                <li><a href="https://www.codewithharry.com/tutorial/css-home/">Home</a></li>
+                <li><a href="https://www.codewithharry.com/tutorial/css-home/">About</a></li>
+                <li><a href="https://www.codewithharry.com/tutorial/css-home/">Contact</a></li>
+                <li><a href="https://www.codewithharry.com/tutorial/css-home/">Shop</a></li>
+            </ul>
+        </div>
+        <div>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur velit, dolorem, voluptatum sint nostrum odio impedit pariatur similique, debitis delectus quasi facere ipsum explicabo quaerat officiis? Necessitatibus adipisci exercitationem repudiandae quia delectus!
+            </p>
+        </div>
+    </div>
+</body>
+</html>

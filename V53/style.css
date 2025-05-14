@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    background-image: url(assets/images/bg.jpg);
+    height: 80vh;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: max(1200px, 120vw);
+}
+
+.main .box {
+    height: 80vh;
+    width: 100%;
+    opacity: 0.44;
+    background-color: black;
+    position: absolute;
+    top: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 60vw;
+    margin: auto;
+    height: 60px;
+}
+
+nav img {
+    position: relative;
+    z-index: 10;
+    width: 150px;
+}
+nav button{
+    position: relative;
+    z-index: 10;
+    width: 60px;
+}
+
+.hero{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+}

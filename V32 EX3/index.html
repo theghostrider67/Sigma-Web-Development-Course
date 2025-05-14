@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS CARD DESIGN</title>
+    <style>
+        body {
+            background-color: gray;
+            padding: 69px;
+            /* display: flex; */
+        }
+
+        .Card {
+            background-color: white;
+            width: 198px;
+            /* height: 344px; */
+            border-radius: 15px;
+            margin: 4px;
+            /* padding: 0 0 34px 0; */
+        }
+
+        .image {
+            padding: 5px;
+        }
+
+        .image img {
+            border-radius: 7px;
+        }
+
+        .content {
+            padding: 5px 10px;
+        }
+        .content p {
+            color: gray;
+            font-family: 'Lucida Sans';
+            text-align: center;
+            font-size: 15px;
+        }
+
+        .content h2 {
+            font: bold;
+            font-size: 20px;
+            padding: 1px;
+            text-align: center;
+        }
+
+        .capsoules {
+            margin: 2px;
+            padding: 0 40px;
+        }
+
+        .capsoules span {
+            padding: 4px;
+            border: 2px solid black;
+            border-radius: 17px;
+            font-size: 17px;
+            font-style: italic;
+            font: bold;
+        }
+        .button{
+            text-align: center;
+            padding: 0 0 10px 0;
+            font-size: 20px;
+        }
+        .button button{
+            padding: 4px 15px;
+            border: 2px solid black;
+            color: rgb(40, 47, 107);
+            border-radius: 17px;
+            font-size: 17px;
+            font-family: 'Gill Sans';
+            background-color: rgb(87, 203, 242);
+            font: bold;
+        }
+        .button button:hover{
+            background-color: rgb(242, 0, 0);
+            color: rgb(110, 240, 11);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="Card">
+
+        <div class="image">
+            <img width="188"
+                src="https://www.thoughtco.com/thmb/QYFozetRCgYLFMPmCjhLsWmMzrA=/5200x3467/filters:fill(auto,1)/sunset-on-the-open-ocean-w-beautiful-sailboat-503108753-59a0806a396e5a0011d570d2.jpg"
+                alt="">
+        </div>
+        <div class="capsoules">
+            <span>Nature</span>
+            <span>Lake</span>
+        </div>
+        <div class="content">
+            <h2>Heading</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi expedita aut ad. Sed est.</p>
+        </div>
+        <div class="button">
+            <button>Read More</button>
+        </div>
+    </div>
+</body>
+
+</html>
