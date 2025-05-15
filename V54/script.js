@@ -13,3 +13,7 @@ else {
 }
 
 console.log("Your number is: " + a);
+
+document.title = "My first javascript page"
+
+document.body.style.backgroundColor = "lightblue";
