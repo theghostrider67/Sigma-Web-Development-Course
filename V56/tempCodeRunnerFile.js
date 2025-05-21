@@ -1,29 +1,3 @@
-console.log("Hello, world! JavaScript Conditionals");
-
-let age = 0;
-// let add = 5
-// age = age + add;
-
-// console.log(age);
-// console.log(age + add);
-// console.log(age - add);
-// console.log(age * add);
-// console.log(age / add);
-// console.log(age ** add);
-// console.log(age % add);
-
-if(age>=18)
-{
-    console.log("You are an adult");
-}
-else if(age==0)
-{
-    console.log("You are a baby");
-}
-else
-{
-    console.log("You are a not an adult");
-}
 
 // if(age>=18)
 // {
@@ -67,4 +41,3 @@ else
 // {
 //     console.log("You are a not an adult");
 // }
-
