@@ -24,3 +24,5 @@ if (!isNaN(num) && Number.isInteger(num)) {
 } else {
     alert("Please enter a valid integer.");
 }
+
+
